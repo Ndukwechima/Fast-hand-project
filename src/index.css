@@ -1,3 +1,74 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hero-page {
+  background-image: url(./assets/Heroimg.png);
+  background-position: center;
+  background-size: cover;
+}
+.about-baber1 {
+  background-image: url(./assets/latinohairsalon1.png);
+  background-position: center;
+  background-size: cover;
+}
+.about-baber2 {
+  background-image: url(./assets/mechanic.png);
+  background-position: center;
+  background-size: cover;
+}
+.vision {
+  background-image: url(./assets/network.png);
+  background-position: center;
+  background-size: cover;
+}
+.mission {
+  background-image: url(./assets/success.png);
+  background-position: center;
+  background-size: cover;
+}
+.tools {
+  background-image: url(./assets/tools.png);
+  background-position: center;
+  background-size: cover;
+}
+.aboutus {
+  background-image: url(./assets/aboutus.png);
+  background-position: center;
+  background-size: cover;
+}
+.toolstwo {
+  background-image: url(./assets/tools2.png);
+  background-position: center;
+  background-size: cover;
+}
+.contact {
+  background-image: url(./assets/telephone.png);
+  background-position: center;
+  background-size: cover;
+}
+.carousel-item {
+  background-image: url(./assets/telephone.png);
+  background-position: center;
+  background-size: cover;
+}
+.cynthea {
+  background-image: url(./assets/cynthea.png);
+  background-position: center;
+  background-size: cover;
+}
+.chima {
+  background-image: url(./assets/chima.png);
+  background-position: center;
+  background-size: cover;
+}
+.scepter {
+  background-image: url(./assets/scepter.png);
+  background-position: center;
+  background-size: cover;
+}
+.form {
+  background-image: url(./assets/latinohairsalon.png);
+  background-position: center;
+  background-size: cover;
+}

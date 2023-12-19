@@ -39,9 +39,9 @@ function Login() {
           <div className="w-[50%] h-[100%] flex flex-col items-center justify-between">
             <div></div>
             <div className="h-[20%] text-white relative right-[9em] bottom-10">
-              <p className="font-extrabold">An Artisan?</p>
+              <p className="font-extrabold">Looking for an Artisan?</p>
               <div>
-                <p>Register to get access to your customers.</p>
+                <p>Register to get access to Artisans.</p>
                 <p>Unlock endless services, One platform.</p>
               </div>
               <div className=" flex justify-between w-[20%]">
