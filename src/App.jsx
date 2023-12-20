@@ -7,10 +7,12 @@ import Contact from "./pages/Contact/Contact";
 import Search from "./components/HeaderSearch/HeaderSearch";
 import Login from "./pages/Artissans/Login";
 import Signup from "./pages/Artissans/Signup";
+import Signups from "./pages/Customer/Signups";
+import Logins from "./pages/Customer/Logins";
 
 function App() {
   return (
-    <>
+    <div className="bg-white">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
@@ -20,11 +22,13 @@ function App() {
             <Route path="/search" element={<Search />} />
           </Route>
 
-          <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<Signup />} />
+          <Route path="/artissans/login" element={<Login />} />
+          <Route path="/artissans/signup" element={<Signup />} />
+          <Route path="/customer/logins" element={<Logins />} />
+          <Route path="/customer/signups" element={<Signups />} />
         </Routes>
       </BrowserRouter>
-    </>
+    </div>
   );
 }
 
