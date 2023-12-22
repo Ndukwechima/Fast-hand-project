@@ -48,7 +48,7 @@ const Home = () => {
         </div>
       </div>
       {/* our services */}
-      <div className="h-[55vh] w-[100%] flex flex-col items-center justify-around">
+      <div className="h-[55vh] w-[100%] bg-white flex flex-col items-center justify-around">
         <div className="text-3xl font-bold">Our Services</div>
         <div className="h-[60%] w-[100%] flex items-center justify-around">
           <div className="h-[100%] w-[20%] shadow-2xl flex items-center justify-center">
@@ -119,7 +119,7 @@ const Home = () => {
         </div>
         <div className="toolstwo w-[40%] h-[80%]"></div>
       </div>
-      <div className="h-[100vh] w-[100%] flex items-center justify-center">
+      <div className="h-[100vh] bg-white w-[100%] flex items-center justify-center">
         <div className="h-[45%] w-[50%] flex flex-col justify-around">
           <div>
             <b className="text-black text-4xl">Contact Us</b>

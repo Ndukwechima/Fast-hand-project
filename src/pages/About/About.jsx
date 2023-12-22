@@ -5,12 +5,12 @@ import { FaInstagramSquare } from "react-icons/fa";
 const About = () => {
   return (
     <>
-      <div className=" w-[100%] h-[380vh] flex flex-col items-center">
+      <div className=" w-[100%] h-[380vh] bg-white flex flex-col items-center">
         <div className="about-baber1 w-[100%] h-[440px]">
           <div className="w-[100%] h-[100%] bg-skyBlue900 bg-opacity-[0.5]">
             <div className="w-[100%] h-[100%] bg-black bg-opacity-[0.3]">
               {" "}
-              <p className="text-center text-4xl font-semibold text-white pt-[3em]">
+              <p className="text-center text-4xl font-semibold text-white pt-[4em]">
                 ABOUT US
               </p>
             </div>

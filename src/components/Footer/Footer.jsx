@@ -5,7 +5,7 @@ import Pajamas from "../../assets/pajamas.png";
 
 const Footer = () => {
   return (
-    <footer className=" foot w-[100%] absolute bottom-0 left-0 right-0 ">
+    <footer className=" foot w-[100%] bottom-0 left-0 right-0 ">
       <div className="w-[100%] h-[100%] bg-black bg-opacity-[0.8] ">
         <div className=" w-[96%] flex justify-between">
           <div className="py-[5em] px-[3em] w-[40%]">

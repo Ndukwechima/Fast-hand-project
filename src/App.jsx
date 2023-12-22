@@ -5,15 +5,13 @@ import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Services from "./pages/Services/Services";
 import Contact from "./pages/Contact/Contact";
-import Search from "./components/HeaderSearch/HeaderSearch";
+import SearchCustomer from "./pages/SearchCustomer/SearchCustomer";
 import Login from "./pages/Artissans/Login";
 import Signup from "./pages/Artissans/Signup";
-import Signups from "./pages/Customer/Signups";
-import Logins from "./pages/Customer/Logins";
 
 function App() {
   return (
-    <div className="bg-white">
+    <>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
@@ -21,16 +19,14 @@ function App() {
             <Route path="/services" element={<Services />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/search" element={<Search />} />
+            <Route path="/searchcustomer" element={<SearchCustomer />} />
           </Route>
 
-          <Route path="/artissans/login" element={<Login />} />
-          <Route path="/artissans/signup" element={<Signup />} />
-          <Route path="/customer/logins" element={<Logins />} />
-          <Route path="/customer/signups" element={<Signups />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
         </Routes>
       </BrowserRouter>
-    </div>
+    </>
   );
 }
 

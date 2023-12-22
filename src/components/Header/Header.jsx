@@ -1,14 +1,14 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Logo from "../../assets/images/Logo.png";
 
-const CustomNavLink = ({ to, children }) => (
-  <Link
+const GetStartedButton = ({ to, children }) => (
+  <NavLink
     to={to}
-    className="hover:text-skyBlue900 px-3 py-2 transition duration-300"
+    className="!bg-pink900 text-white px-4 font-bold py-2 rounded"
   >
     {children}
-  </Link>
+  </NavLink>
 );
 
 const Header = () => {
@@ -19,20 +19,43 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-white text-black p-8 flex items-center justify-between">
+    <header className="bg-white text-black p-8 flex items-center justify-between shadow-md fixed top-0 left-0 right-0 z-40">
       <div className="flex items-center">
         <img src={Logo} alt="Logo" className="h-12 mr-4" />
       </div>
 
       <div className="hidden md:flex text-2xl font-bold space-x-4 text-textGray">
-        <CustomNavLink to="/">Home</CustomNavLink>
-        <CustomNavLink to="/services">Services</CustomNavLink>
-        <CustomNavLink to="/about">About Us</CustomNavLink>
-        <CustomNavLink to="/contact">Contact Us</CustomNavLink>
-        <CustomNavLink to="/search">Search</CustomNavLink>
-        <button className="bg-pink900 text-white px-4 font-bold py-2 rounded">
-          Get Started
-        </button>
+        <NavLink
+          to="/"
+          className="hover:text-skyBlue900 px-3 py-2 transition duration-300"
+        >
+          Home
+        </NavLink>
+        <NavLink
+          to="/services"
+          className="hover:text-skyBlue900 px-3 py-2 transition duration-300"
+        >
+          Services
+        </NavLink>
+        <NavLink
+          to="/about"
+          className="hover:text-skyBlue900 px-3 py-2 transition duration-300"
+        >
+          About Us
+        </NavLink>
+        <NavLink
+          to="/contact"
+          className="hover:text-skyBlue900 px-3 py-2 transition duration-300"
+        >
+          Contact Us
+        </NavLink>
+        <NavLink
+          to="/searchcustomer"
+          className="hover:text-skyBlue900 px-3 py-2 transition duration-300"
+        >
+          Search
+        </NavLink>
+        <GetStartedButton to="/artissans/signup">Get Started</GetStartedButton>
       </div>
 
       <div className="md:hidden">
@@ -47,14 +70,39 @@ const Header = () => {
 
       {isMenuOpen && (
         <div className="md:hidden absolute top-16 right-1 flex flex-col bg-skyBlue900 text-white p-4 rounded">
-          <CustomNavLink to="/">Home</CustomNavLink>
-          <CustomNavLink to="/services">Services</CustomNavLink>
-          <CustomNavLink to="/about">About Us</CustomNavLink>
-          <CustomNavLink to="/contact">Contact Us</CustomNavLink>
-          <CustomNavLink to="/search">Search</CustomNavLink>
-          <button className="bg-pink900 text-white px-4 py-2 rounded mt-2 block">
+          <NavLink
+            to="/"
+            className="hover:text-skyBlue900 px-3 py-2 transition duration-300"
+          >
+            Home
+          </NavLink>
+          <NavLink
+            to="/services"
+            className="hover:text-skyBlue900 px-3 py-2 transition duration-300"
+          >
+            Services
+          </NavLink>
+          <NavLink
+            to="/about"
+            className="hover:text-skyBlue900 px-3 py-2 transition duration-300"
+          >
+            About Us
+          </NavLink>
+          <NavLink
+            to="/contact"
+            className="hover:text-skyBlue900 px-3 py-2 transition duration-300"
+          >
+            Contact Us
+          </NavLink>
+          <NavLink
+            to="/search"
+            className="hover:text-skyBlue900 px-3 py-2 transition duration-300"
+          >
+            Search
+          </NavLink>
+          <GetStartedButton to="/artissans/signup">
             Get Started
-          </button>
+          </GetStartedButton>
         </div>
       )}
     </header>
