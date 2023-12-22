@@ -38,7 +38,7 @@ function Login() {
         <div className="h-[100%]  flex">
           <div className="w-[50%] h-[100%] flex flex-col items-center justify-between">
             <div></div>
-            <div className="h-[20%] text-white relative right-[9em] bottom-10">
+            <div className="h-[20%] text-white relative md:right-[9em] bottom-10">
               <p className="font-extrabold">An Artisan?</p>
               <div>
                 <p>Register to get access to your customers.</p>
@@ -56,7 +56,9 @@ function Login() {
                 className="w-[80%] h-[90%] flex flex-col justify-around items-center text-white"
                 onSubmit={formik.handleSubmit}
               >
-                <p className="text-3xl mr-[9.2em] w-[50%]">Sign Up</p>
+                <p className="text-3xl lg:mr-[9.2em] md:mr-[5em] md:w-[50%] w-[100%]">
+                  Sign In
+                </p>
                 <div className="w-[100%] flex flex-col">
                   <label htmlFor="name">Name:</label>
                   <input
@@ -98,7 +100,7 @@ function Login() {
 
                 <button
                   type="submit"
-                  className="border-2 border-skyBlue900 py-1 w-[15%] rounded-md"
+                  className="border-2 border-skyBlue900 py-1 lg:w-[15%] sm:w-[35%] w-[45%] rounded-md"
                 >
                   Login
                 </button>
