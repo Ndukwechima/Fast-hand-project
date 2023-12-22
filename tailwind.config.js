@@ -15,8 +15,8 @@ export default {
         textGray: "#2f2f2f",
       },
       screens: {
-        "2sm": "360px",
-        sm: "480px",
+        "2sm": "300px",
+        sm: "640px",
         md: "768px",
         lg: "1024px",
         xl: "1200px",
