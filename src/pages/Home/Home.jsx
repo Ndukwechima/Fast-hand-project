@@ -40,15 +40,21 @@ const Home = () => {
                 Customer
               </NavLink>
             </div>
-            <button className="px-4 py-2 rounded-md bg-pink900 text-white font-bold text-lg  relative top-7 md:top-0 md:bottom-5">
+            <NavLink
+              to="/artissans/signup"
+              className="px-4 py-2 rounded-md bg-pink900 text-white font-bold text-lg  relative top-7 md:top-0 md:bottom-5"
+            >
               Get Started
-            </button>
+            </NavLink>
           </div>
         </div>
       </div>
       {/* our services */}
 
+
+
       <div className="md:h-[55vh] h-[40vh] bg-white w-[100%] flex flex-col items-center justify-around">
+
         <div className="text-3xl font-bold">Our Services</div>
         <div className="h-[60%] w-[100%] flex items-center justify-around md:text-base text-xs">
           <div className="h-[100%] lg:w-[20%] sm:w-[30%] w-[27%] shadow-2xl flex items-center justify-center">
@@ -119,7 +125,6 @@ const Home = () => {
         </div>
         <div className="toolstwo w-[40%] h-[80%]"></div>
       </div>
-
       <div className="lg:h-[100vh] bg-white h-[70vh] w-[100%] flex items-center md:justify-center justify-around">
         <div className="h-[45%] w-[50%] flex flex-col justify-around">
           <div>
