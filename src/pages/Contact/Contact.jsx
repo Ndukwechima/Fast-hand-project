@@ -14,73 +14,77 @@ import Map from "../../assets/map.png";
 const Contact = () => {
   return (
     <>
-      <section className="w-[100%] py-[5em]  bg-skyBlue700 flex items-center justify-center mt-[6em]">
-        <section className="w-[90%]">
-          <div>
-            <h2 className="text-center text-white text-2xl py-10 mt-[2em]  font-bold">
-              Get In Touch
-            </h2>
+      <section className="contactpage w-[100%] ">
+        <div className=" bg-skyBlue700 bg-opacity-[0.2]">
+          <div className=" py-[5em]  bg-black  mt-[6em] w-[100%] bg-opacity-[0.5] flex items-center justify-center">
+            <section className="w-[90%]">
+              <div>
+                <h2 className="text-center text-white text-2xl py-10 md:mt-[2em]  font-bold">
+                  Get In Touch
+                </h2>
+              </div>
+              <section className=" w-[100%] flex md:flex-row flex-col items-center  justify-around">
+                <div className="">
+                  <div className="flex flex-col items-center">
+                    <div className="w-[2em] h-[2em] rounded-full bg-white flex items-center justify-center">
+                      <MdOutlineEmail className="text-gray-500" />
+                    </div>
+                    <h4 className="text-white font-bold">Email</h4>
+                    <p className="text-white">Official Emails</p>
+                    <p className="text-white">abigailnwadike@gmail.com</p>
+                    <p className="text-white">abigailnwadike@gmail.com</p>
+                  </div>
+                </div>
+                <div>
+                  <div className="flex flex-col items-center">
+                    <div className="w-[2em] h-[2em] rounded-full bg-white flex items-center justify-center">
+                      <MdOutlineLocalPhone className="text-gray-500" />
+                    </div>
+                    <h4 className="text-white  font-bold">Phone</h4>
+                    <p className="text-white">Management Desk</p>
+                    <p className="text-white">08059941818</p>
+                    <p className="text-white">08142920154</p>
+                    <p className="text-white">Managers No</p>
+                    <p className="text-white">08059941818</p>
+                    <p className="text-white">08142920154</p>
+                  </div>
+                </div>
+                <div>
+                  <div className="flex flex-col items-center">
+                    <div className="w-[2em] h-[2em] rounded-full bg-white flex items-center justify-center">
+                      <MdOutlineSocialDistance className="text-gray-500" />
+                    </div>
+                    <h4 className="text-white">Social Media</h4>
+                    <div>
+                      <i></i>
+                      <p className="text-white">FastHands Inc</p>
+                    </div>
+                    <div>
+                      <i></i>
+                      <p className="text-white">FastHands Inc</p>
+                    </div>
+                    <div>
+                      <i></i>
+                      <p className="text-white">FastHands Inc</p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div className="flex flex-col items-center">
+                    <div className="w-[2em] h-[2em] rounded-full bg-white flex items-center justify-center">
+                      <MdOutlineLocationOn className="text-gray-500" />
+                    </div>
+                    <h4 className="text-white  font-bold">Location</h4>
+                    <p className="text-white">No 17 LearnFactory Brass</p>
+                  </div>
+                </div>
+              </section>
+            </section>
           </div>
-          <section className=" w-[90%] flex justify-around">
-            <div className="">
-              <div className="flex flex-col items-center">
-                <div className="w-[2em] h-[2em] rounded-full bg-white flex items-center justify-center">
-                  <MdOutlineEmail className="text-gray-500" />
-                </div>
-                <h4 className="text-white font-bold">Email</h4>
-                <p className="text-white">Official Emails</p>
-                <p className="text-white">abigailnwadike@gmail.com</p>
-                <p className="text-white">abigailnwadike@gmail.com</p>
-              </div>
-            </div>
-            <div>
-              <div className="flex flex-col items-center">
-                <div className="w-[2em] h-[2em] rounded-full bg-white flex items-center justify-center">
-                  <MdOutlineLocalPhone className="text-gray-500" />
-                </div>
-                <h4 className="text-white  font-bold">Phone</h4>
-                <p className="text-white">Management Desk</p>
-                <p className="text-white">08059941818</p>
-                <p className="text-white">08142920154</p>
-                <p className="text-white">Managers No</p>
-                <p className="text-white">08059941818</p>
-                <p className="text-white">08142920154</p>
-              </div>
-            </div>
-            <div>
-              <div className="flex flex-col items-center">
-                <div className="w-[2em] h-[2em] rounded-full bg-white flex items-center justify-center">
-                  <MdOutlineSocialDistance className="text-gray-500" />
-                </div>
-                <h4 className="text-white">Social Media</h4>
-                <div>
-                  <i></i>
-                  <p className="text-white">FastHands Inc</p>
-                </div>
-                <div>
-                  <i></i>
-                  <p className="text-white">FastHands Inc</p>
-                </div>
-                <div>
-                  <i></i>
-                  <p className="text-white">FastHands Inc</p>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div className="flex flex-col items-center">
-                <div className="w-[2em] h-[2em] rounded-full bg-white flex items-center justify-center">
-                  <MdOutlineLocationOn className="text-gray-500" />
-                </div>
-                <h4 className="text-white  font-bold">Location</h4>
-                <p className="text-white">No 17 LearnFactory Brass</p>
-              </div>
-            </div>
-          </section>
-        </section>
+        </div>
       </section>
       <section className=" w-[100%] bg-white flex items-center justify-center">
-        <section className="w-[60%]">
+        <section className="w-[100%] md:w-[80%] lg:w-[60%] flex flex-col items-center justify-center">
           <div className="py-10">
             <h2 className="text-center text-2xl text-pink900 font-bold">
               Send us a message
@@ -92,45 +96,38 @@ const Contact = () => {
           </div>
           <form
             action=""
-            className="bg-gray-200 flex flex-col items-center justify-center py-6 "
+            className="bg-gray-200 flex flex-col items-center justify-around h-[70vh] lg:h-[90vh] w-[90%] rounded-xl"
           >
-            <div>
+            <input
+              type="name"
+              placeholder="Full Name"
+              className="pl-10 w-[80%] h-[6vh] rounded-md bg-white outline-none"
+            />
+            <div className="w-[80%] flex items-center justify-between">
               <input
-                className="w-[32.2em] h-[2em] m-1 bg-white rounded-md placeholder:px-2 outline-none "
-                type="text"
-                placeholder="Full Name"
+                type="email"
+                placeholder="Email"
+                className="pl-10 w-[45%] h-[6vh] rounded-md bg-white outline-none"
               />
-              <br />
-              <div className="mt-4">
-                <input
-                  className="w-[15.2em] h-[2em]  ml-[2px]  bg-white  rounded-md placeholder:px-2 outline-none"
-                  type="email"
-                  placeholder="Email"
-                />
-                <input
-                  className="w-[16.2em] h-[2em]  ml-[14px] bg-white rounded-md placeholder:px-2 outline-none"
-                  type="tel"
-                  placeholder="Phone"
-                />
-              </div>
-              <br />
               <input
-                className="w-[32.2em] h-[2em]  m-1 bg-white outline-none rounded-md placeholder:px-2"
-                type="text"
-                placeholder="subject"
+                type="phone-number"
+                placeholder="Phone"
+                className="pl-10 w-[45%] h-[6vh] rounded-md bg-white outline-none"
               />
-              <br />
-              <div className="flex justify-center items-center">
-                <textarea
-                  className="bg-white  outline-none rounded-md w-[32.2em] h-[12em] placeholder:px-2 mt-4"
-                  placeholder="Message..."
-                />
-              </div>
-              <br />
-              <button className="py-1 px-7 bg-skyBlue900 text-white rounded-md ml-2">
-                Send Message
-              </button>
             </div>
+            <input
+              type="text"
+              placeholder="Subject"
+              className="pl-10 w-[80%] h-[6vh] rounded-md bg-white outline-none"
+            />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Subject......"
+              className="pl-10 w-[80%] h-[40vh] rounded-md bg-white outline-none pt-4"
+            ></textarea>
           </form>
         </section>
       </section>
@@ -139,8 +136,8 @@ const Contact = () => {
           <div className="text-2xl text-pink900 text-center">
             <h2 className=" text-pink900">Follow us on social media</h2>
           </div>
-          <div className="flex justify-center items-center ">
-            <div className="w-[10%] flex justify-between  items-center py-4">
+          <div className="flex justify-around md:justify-center items-center ">
+            <div className="lg:w-[10%] md:w-[20%] w-[50%] flex justify-between  items-center py-4">
               <div className="bg-skyBlue900 py-2 px-2 rounded-full">
                 <CiFacebook className="text-white" />
               </div>
