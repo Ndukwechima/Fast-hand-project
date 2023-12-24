@@ -5,10 +5,10 @@ import Pajamas from "../../assets/pajamas.png";
 
 const Footer = () => {
   return (
-    <footer className=" foot w-[100%] bottom-0 left-0 right-0 ">
+    <footer className=" foot w-[100%] bottom-0 left-0 right-0">
       <div className="w-[100%] h-[100%] bg-black bg-opacity-[0.8] ">
-        <div className=" w-[96%] flex justify-between">
-          <div className="py-[5em] px-[3em] w-[40%]">
+        <div className=" w-[96%] flex md:flex-row flex-col justify-between">
+          <div className="py-[5em] px-[3em] md:w-[40%]">
             <div>
               <img src={Logo} width={100} alt="logo" />
             </div>
@@ -22,13 +22,13 @@ const Footer = () => {
               platform and advantage of reach as the ICT sector.
             </p>
           </div>
-          <div className="py-[5em] px-[3em]">
+          <div className="py-[5em] px-[3em] flex flex-col items-center justify-center">
             <h4 className="text-3xl text-center">Info</h4>
             <p className="text-white">About Us</p>
             <p className="text-white">Contact Us</p>
             <p className="text-white">Feedbacks</p>
           </div>
-          <div className="py-[5em] px-[3em]">
+          <div className="py-[5em] md:px-[3em] px-[2em]">
             <h4 className="text-white py-1">
               Want to get updated with our services, add your email
             </h4>
@@ -53,7 +53,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="w-[100%] flex justify-center items-center -mt-8">
-          <div className="flex w-[10%] justify-between items-center">
+          <div className="flex md:w-[10%] w-[30%] justify-between items-center">
             <img src={Facebook} alt="facebook" width={30} />
             <img src={Instagram} alt="" width={30} />
             <img src={Pajamas} alt="" width={30} />
