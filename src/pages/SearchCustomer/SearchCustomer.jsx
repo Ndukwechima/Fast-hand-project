@@ -172,7 +172,7 @@ const SearchCustomer = () => {
                     <figcaption className="md:w-[33%] w-[90%]">
                       <p className="text-pink900 font-bold">Johns Smith</p>
                       <p className="text-gray-700">
-                        Looks first,we prioritize your concerns
+                        Looks first, we prioritize your concerns
                       </p>
                       <button className="bg-skyBlue900 py-1 px-6 rounded-md text-white">
                         Profile

@@ -8,6 +8,8 @@ import Contact from "./pages/Contact/Contact";
 import SearchCustomer from "./pages/SearchCustomer/SearchCustomer";
 import Login from "./pages/Artissans/Login";
 import Signup from "./pages/Artissans/Signup";
+import Logins from "./pages/Customer/Logins";
+import Signups from "./pages/Customer/Signups";
 
 function App() {
   return (
@@ -22,8 +24,10 @@ function App() {
             <Route path="/searchcustomer" element={<SearchCustomer />} />
           </Route>
 
-          <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<Signup />} />
+          <Route path="/artissans/login" element={<Login />} />
+          <Route path="/artissans/signup" element={<Signup />} />
+          <Route path="/customer/logins" element={<Logins />} />
+          <Route path="/customer/signups" element={<Signups />} />
         </Routes>
       </BrowserRouter>
     </>

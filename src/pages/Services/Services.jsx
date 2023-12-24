@@ -7,7 +7,7 @@ import { MdSettingsInputAntenna } from "react-icons/md";
 
 const Services = () => {
   return (
-    <>
+    <div>
       <section className="py-[10em] bg-white flex lg:flex-row flex-col justify-center items-center">
         <h1 className="md:text-[4rem] text-3xl font-bold text-pink900 lg:hidden block lg:mt-0 mt-10">
           Our services
@@ -82,7 +82,7 @@ const Services = () => {
           </div>
         </section>
       </section>
-    </>
+    </div>
   );
 };
 
