@@ -24,7 +24,7 @@ const Header = () => {
         <img src={Logo} alt="Logo" className="h-12 mr-4" />
       </div>
 
-      <div className="hidden md:flex text-2xl font-bold space-x-4 text-textGray">
+      <div className="hidden md:flex md:text-sm lg:text-md font-bold space-x-4 text-textGray">
         <NavLink
           to="/"
           className="hover:text-skyBlue900 px-3 py-2 transition duration-300"
